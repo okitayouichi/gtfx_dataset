@@ -3,7 +3,7 @@
 This is a project for a guitar wet signal dataset consisting of similar performances of three different guitars.
 This repository contains a dataset generation program.
 This project is a part of the project "fx_estimate".
-A dry signal dataset [gt_dataset](https://github.com/okitayouichi/gt_dataset) is required to generate this dataset and this dataset is intended to be used for an audio effect estimation project [fx_estimate](https://github.com/okitayouichi/fx_estimate).
+A dry signal dataset [gt_dataset](https://github.com/okitayouichi/gt_dataset) is required to generate this dataset and this dataset is intended to be used for an audio effect estimation project [dry_cond_fx_estimate](https://github.com/okitayouichi/dry_cond_fx_estimate).
 
 ## Dataset Overview
 
@@ -14,7 +14,7 @@ See [gt_dataset](https://github.com/okitayouichi/gt_dataset) for information on 
 
 ## Setup
 
-This program has only been tested on Ubuntu 20.04.6 LTS and Python 3.11.0.
+This program has only been tested on Ubuntu 20.04.6 LTS, and Python 3.11.0.
 The root directory of this project (`gtfx_dataset`) must be directly under the root directory of the parent project `fx_estimate`.
 
 
